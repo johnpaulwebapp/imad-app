@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <Title> Article Three ! John Paul 
+        </Title>
+    </head>
+    <body>
+        <div>
+            <a href ='/'>home</a>
+        </div>
+        <hr/>
+        <div>
+            <h3>
+                Article Three
+            </h3>
+            <div>
+                Aug 21, 2017
+            </div>
+            <div>
+                <p>
+                    This is the Content for My 3rd Article.
+                </p>
+             </div>
+        </div>
+    </body>
+</html>
