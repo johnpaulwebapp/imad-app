@@ -39,7 +39,7 @@ var articleOne = {
     <body>
         <div class='container'>
             <div>
-            <a href ='/'>home</a>
+            <a href ='/'>HOME</a>
             </div>
         <hr/>
                 <div>
