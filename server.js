@@ -29,7 +29,7 @@ var articles = {
     <p>
                     This is the Content for My Second Article.This is the Content for My Second Article.
                 </p>`},
-    'article-three : { 
+    'article-three' : { 
        title : 'Article Three ! John Paul ',
     heading :  'Article Three',
     date: 'Aug 27,2017',
