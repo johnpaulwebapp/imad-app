@@ -27,10 +27,8 @@ var content = {
        var date = data.date;
        var heading = data.heading;
        var content = data.content;
-       return htmltemplate;
-    }
-    
-    var htmltemplate=`
+      
+        var htmltemplate=`
     
         <html>
     <head>
@@ -60,7 +58,8 @@ var content = {
     </body>
 </html>
 `;
-
+return htmlTemplate;
+}
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
