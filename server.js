@@ -32,7 +32,7 @@ var articleone = {
     <html>
         <head>
         <Title> 
-            ${Title}
+            ${title}
         </Title>
           <link href="/ui/style.css" rel="stylesheet" />
     </head>
