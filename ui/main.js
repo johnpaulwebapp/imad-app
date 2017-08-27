@@ -19,6 +19,6 @@ button.onclick= function () {
             // Not done Yet
 };
     // Make the request
-        request.open('GET','http://johnpaulmsit.imad.hasura-app.io/counter',true);
+        request.open('GET',' http://johnpaulmsit.imad.hasura-app.io/counter',true);
         request.send(null);
     };
