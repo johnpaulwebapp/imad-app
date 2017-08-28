@@ -15,6 +15,9 @@ button.onclick= function () {
                var span = document.getElementById('count');
                span.innerHTML = counter.toString();
             }
+             else { alert('There was a problem with the request.'); 
+                 
+             }
         }
             // Not done Yet
 };
@@ -22,3 +25,4 @@ button.onclick= function () {
         request.open('GET',' http://johnpaulmsit.imad.hasura-app.io/counter',true);
         request.send(null);
     };
+    
