@@ -7,5 +7,5 @@ element.innerHTML='New Value';
 //Move the Images
 var img =document.getelementById('modi');
 img.onclick=function (){
-  img.style.marginLeft = '100px'  ;
+  img.style.marginLeft = '100px';
 };
