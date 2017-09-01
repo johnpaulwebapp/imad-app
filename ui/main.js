@@ -29,7 +29,7 @@ button.onclick= function () {
     //submit name
    var nameInput = document.getElementById ('name');
    var name = nameInput.value;
-   var submitt = document.getElementById ('submit-btn');
+   var submitt = document.getElementById ('submit_btn');
    submit.onclick = function (){
        //Make a request tothr server and send the name
        
