@@ -1,10 +1,10 @@
 //Change the text of the main text div
-var element = document.getelementById('main-text');
+var element = document.getElementById('main-text');
 
 element.innerHTML = 'New Value';
 
 //Move the Images
-var img = document.getelementById('modi');
+var img = document.getElementById('modi');
 var marginLeft = 0;
 function moveRight (){
   marginLeft = marginLeft+10;  
