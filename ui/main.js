@@ -1,14 +1,14 @@
 //Change the text of the main text div
-var element=document.getelementById('main-text');
+var element = document.getelementById('main-text');
 
-element.innerHTML='New Value';
+element.innerHTML = 'New Value';
 
 //Move the Images
-var img =document.getelementById('modi');
-var marginLeft =0;
+var img = document.getelementById('modi');
+var marginLeft = 0;
 function moveRight (){
   marginLeft = marginLeft+10;  
-  img.style.marginLeft=marginLeft+'px';
+  img.style.marginLeft = marginLeft+'px';
 }
 img.onclick=function (){
   img.style.marginLeft = '100px';
